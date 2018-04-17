@@ -1,0 +1,121 @@
+@font-face
+{
+    font-family: Myfontawesome;
+    src: url('fontawesome-webfont.ttf') format("truetype");
+}
+
+@font-face
+{
+    font-family: MySansitaBold;
+    src: url('SansitaBold.ttf') format("truetype");
+}
+
+@font-face
+{
+    font-family: MySansitaRegular;
+    src: url('SansitaRegular.ttf') format("truetype");
+}
+
+#menuFrame
+{
+	margin: auto;
+	width: 100%;
+	min-width: 1040px;
+	max-width: 1600px;
+	height: 50px;
+}
+
+	#logoText
+	{
+		float: left;
+		margin-left: 40px;
+		width: 60%;
+	}
+	
+	#logoText a
+	{
+		position: relative;
+		top: 2px;
+		font-size: 25px;
+		font-weight: bold;
+		font-family: Myfontawesome;
+		letter-spacing: 4px;
+		color: #808080;
+	}
+	
+	#logoText p
+	{
+		font-size: 20px;
+		font-family: Myfontawesome;
+		color: #808080;
+		margin-top: 0px;
+		margin-down: 0px;
+	}
+	
+#line
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	background-color: #778899;
+	height: 1px;
+}
+
+#logoFrame
+{
+	margin: auto;
+	width: 100%;
+	min-width: 1040px;
+	max-width: 1600px;
+	background-color: blue;
+}
+	.logoImage
+	{
+		position: relative;
+		float: left;
+		width: 20%;
+		max-height: 300px;
+		min-height: 250px;
+		overflow: hidden;
+		text-align: center;
+		background-color: yellow;
+	}
+	
+	.logoImage img
+	{
+		width: 90%;
+	}
+	
+	.logoImage p
+	{
+		font-size: 20px;
+		font-family: Myfontawesome;
+	}
+	
+
+#endPageFrame
+{
+	margin: auto;
+	width: 100%;
+	min-width: 1040px;
+	max-width: 1600px;
+}
+
+	#endPageFrame2
+	{
+		margin: auto;
+		position: relative;
+		width: 100%;
+	}
+	
+		#endPageFrame2 p
+		{
+			text-align: center;
+			font-family: arial;
+			color: grey;
+			letter-spacing: 2px;
+			margin: auto;
+			width: 100px;
+		}
+
+	
