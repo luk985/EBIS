@@ -1,0 +1,299 @@
+@font-face
+{
+    font-family: Myfontawesome;
+    src: url('fontawesome-webfont.ttf') format("truetype");
+}
+
+@font-face
+{
+    font-family: MySansitaBold;
+    src: url('SansitaBold.ttf') format("truetype");
+}
+
+@font-face
+{
+    font-family: MySansitaRegular;
+    src: url('SansitaRegular.ttf') format("truetype");
+}
+
+@font-face
+{
+    font-family: MyRoboto;
+    src: url(Roboto-Regular.ttf) format("truetype");
+}
+
+#window
+{   
+	position: absolute;
+	height: 100%;
+	min-height: 1000px;
+	width: 100%;
+	min-width: 1040px;
+	max-width: 1900px;
+	margin-top: auto;
+	overflow:hidden;
+}
+
+#window img
+{
+	width:100%;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	z-index: -1;
+}
+
+    #containerTopLeft
+    {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    
+        #oneLeft
+        {
+            position: relative;
+            float: left;
+            border-right: 3px solid black;
+            width: 120px;
+            height: 70px;
+        }
+    
+	    #oneLeft p
+	    {
+	        text-align: center;
+	        font-family: MyRoboto;
+	        font-size: 30px;
+	        color: black;
+	        font-weight: bold;
+	        letter-spacing: 5px;
+	        margin-top: 15px;
+	    }
+	    
+	    #twoLeft
+        {
+            position: relative;
+            float: left;
+            width: 120px;
+            height: 70px;
+        }
+        
+        #twoLeft p
+        {
+            text-align: center;
+            font-family: MyRoboto;
+            font-size: 15px;
+            color: black;
+            font-weight: bold;
+            letter-spacing: 5px;
+            margin-bottom: 10px;
+            margin-top: 0px;
+        }
+	    
+    #containerTopRight
+    {
+        top: 20px;
+        right: 30px;
+        position: absolute;
+        width: 150px;
+        height: 50px;
+        border: 1px solid black;    
+    }
+    
+    #containerTopRight p
+    {
+        text-align: center;
+        font-family: MyRoboto;
+        font-size: 15px;
+        color: black;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+    #containerCenter
+    {
+        position: absolute;
+        margin: auto;
+        top: 35%;
+        left: 0;
+        right: 0;
+        width: 864px;
+    }
+    
+    #typeOfWork
+    {
+        position: relative;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    #typeOfWork p
+    {
+        text-align: center;
+        font-family: MyRoboto;
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 5px;
+        margin-top: 15px;;
+    }
+
+
+    .container1
+    {
+        position: relative;
+        float: left;
+        width: 118px;
+        height: 118px;
+        border: 3px solid black; /* #DCDCDC jasno szary kolor */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .container1 p
+    {
+      
+        text-align: center;
+        font-family: MyRoboto;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 40%;
+    }
+    
+    #listServices
+    {
+        position: relative;
+        margin-left: 50px;
+        height: 100px;
+        
+    }
+    
+    #listServices p
+    {
+        font-size: 25px;
+        font-family: MyRoboto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #containerDown
+    {
+        position: absolute;
+        top: 85%;
+        left: 30px;
+        width: 600px;
+        height: 60px;
+    }
+    
+    #containerDown p
+    {
+        text-align: left;
+        font-family: MyRoboto;
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 5px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+    #line
+    {
+        position: relative;
+        width: 200px;
+        height: 5px;
+        border-bottom: 4px solid black;
+    }
+    
+    #copyright
+    {
+        position: absolute;
+        bottom: 25px;
+        width: 100%;
+        height: 20px;
+    }
+    
+    #copyright p
+    {
+        text-align: center;
+        font-size: 15px;
+        color: BLACK;
+        font-family: MyRoboto;
+    }
+    
+
+    
+
+
+
+
+/*
+	#ImageSlider
+	{
+	    position: absolute;
+        height: 100%;
+	}
+	#ImageSlider img
+	{
+	
+	    height: 100%;
+	    z-index:2;
+	    filter: brightness(70%);
+	    vertical-align: middle;
+	    text-align: center;
+    }
+    
+    #logo
+    {
+        z-index:2;
+        position: absolute;
+        top: 1%;
+        right: 0px;
+        left: 0px;
+        widht: 50%;
+    }
+    
+    #logo p
+    {
+        text-align: center;
+        font-family: MyRoboto;
+        font-size: 60px;
+        color: White;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+    
+    #centerText
+    {
+        z-index:2;
+        position: absolute;
+        top: 25%;
+        right: 0px;
+        left: 0px;
+    }
+    
+   .p1
+    {
+        text-align: center;
+        font-family: MyRoboto;
+        font-size: 50px;
+        color: White;
+        font-weight: bold;
+        line-height: 50%;
+        letter-spacing: 5px;
+    }     
+    
+    .p2
+    {
+        text-align: center;
+        font-family: MyRoboto;
+        font-size: 40px;
+        color: White;
+        line-height: 50%;
+    }
+    */
